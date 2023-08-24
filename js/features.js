@@ -6,7 +6,6 @@ let featuresImages = document.querySelectorAll(
 operations = document.querySelector(".operations");
 let testimonials = document.querySelector(".testimonials");
 let footer = document.querySelector(".footer");
-console.log(operations.children);
 
 function visible(section) {
   section.style.opacity = "1";
@@ -40,8 +39,8 @@ window.onscroll = function () {
   ) {
     header.style.position = "fixed";
     header.style.backgroundColor = "rgb(255 255 255 / 90%)";
-  } else if (scrollY <= features.offsetTop) {
-    header.style.position = "absolute";
+  } else if (scrollY <= features.offsetTop + 20) {
+    header.style.position = "relative";
     header.style.backgroundColor = "transparent";
   }
   // if (

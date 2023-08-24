@@ -116,7 +116,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,6 +124,7 @@ header {
   min-width: 100%;
   z-index: 3000;
   transition: 2s;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -176,7 +177,6 @@ header .links button:hover {
 
 .main {
   display: flex;
-  gap: 31px;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -224,7 +224,7 @@ header .links button:hover {
 }
 
 .main .main-image img {
-  width: 450px;
+  width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -240,7 +240,7 @@ header .links button:hover {
 }
 
 .header {
-  padding: 150px 0px 50px;
+  padding: 150px 20px 50px;
   margin: auto;
   width: fit-content;
 }
@@ -283,7 +283,7 @@ header .links button:hover {
 }
 
 .features .features-box img {
-  width: 500px;
+  width: 100%;
 }
 
 .features .features-box .text {
@@ -350,6 +350,8 @@ header .links button:hover {
   position: absolute;
   max-height: 300px;
   margin-bottom: 100px;
+  overflow: auto;
+  width: 100%;
 }
 .operations-content .operations-box .circle {
   width: 70px;

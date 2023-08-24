@@ -5,7 +5,6 @@ let btnRight = document.querySelector(".testimonials-content .right");
 let btnLeft = document.querySelector(".testimonials-content .left");
 
 let translate = 0;
-console.log(btnRight);
 
 btnRight.onclick = function () {
   remove();
