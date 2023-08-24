@@ -39,7 +39,7 @@ window.onscroll = function () {
   ) {
     header.style.position = "fixed";
     header.style.backgroundColor = "rgb(255 255 255 / 90%)";
-  } else if (scrollY <= features.offsetTop + 20) {
+  } else if (scrollY <= features.offsetTop + 19) {
     header.style.position = "relative";
     header.style.backgroundColor = "transparent";
   }

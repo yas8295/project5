@@ -224,7 +224,7 @@ header .links button:hover {
 }
 
 .main .main-image img {
-  width: 100%;
+  width: 600px;
 }
 
 @media (max-width: 960px) {
@@ -283,7 +283,7 @@ header .links button:hover {
 }
 
 .features .features-box img {
-  width: 100%;
+  width: 80%;
 }
 
 .features .features-box .text {
