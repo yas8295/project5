@@ -35,7 +35,7 @@ window.onscroll = function () {
   }
   if (
     scrollY >=
-    features.offsetTop - document.documentElement.clientHeight + 20
+    features.offsetTop + 20
   ) {
     header.style.position = "fixed";
     header.style.backgroundColor = "rgb(255 255 255 / 90%)";
