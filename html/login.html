@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap-utilities.min.css" />
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/project5.css" />
+  <link rel="stylesheet" href="../css/login.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;800&display=swap"
+    rel="stylesheet" />
+  <title>login</title>
+</head>
+
+<body>
+  <header class="container-md px-5 mx-auto">
+    <a class="logo" href="../index.html"><img src="../img/logo.png" alt="" /></a>
+    <div class="login me-md-5">
+      <form action="" class=" d-flex gap-3 flex-wrap mt-4 mt-sm-0 justify-content-center">
+        <div class="d-flex flex-column gap-3" style="translate: 0 17px;">
+          <input class="username" type="text" placeholder="Username">
+          <label for="" style="opacity: 0.5;">Hint: as or ja</label>
+        </div>
+        <div class="d-flex flex-column gap-3" style="translate: 0 17px;">
+          <input class="password" type="password" placeholder="Password">
+          <label for="" style="opacity: 0.5;">Hint: 1234 or 4321</label>
+        </div>
+        <input class="login-btn" type="submit" value="➡">
+      </form>
+    </div>
+  </header>
+  <div class="account container-md px-5 mx-auto col-12">
+    <div class="head d-flex justify-content-between mt-5 mb-2 text-secondary align-items-center px-1"
+      style="margin-top: 30px !important;">
+      <h2>Current Balance</h2>
+      <h1 class="current-balance" style="font-size: 35px;">26$</h1>
+    </div>
+    <div class="row">
+      <div class="transitions-content col-12 col-md-7 py-3 px-3">
+        <div class="transitions-box p-4 d-flex justify-content-between align-items-center">
+          <div>
+            <div class="deposit">1 DEPOSIT</div>
+          </div>
+          <div class="trans-balance">
+            1000$
+          </div>
+        </div>
+        <div class="transitions-box p-4 d-flex justify-content-between align-items-center">
+          <div>
+            <div class="withdrawal">2 WITHDRAWAL</div>
+          </div>
+          <div class="trans-balance">
+            1000$
+          </div>
+        </div>
+      </div>
+      <div class="oper-content col-12 col-md-5 py-3 px-3">
+        <div class="transfer-box mb-4 p-3">
+          <h3 class="mb-3">Transfer Money</h3>
+          <form class="d-flex gap-2 flex-wrap" action="">
+            <div class="d-flex flex-column gap-2 col">
+              <input class="transfer-to" type="text">
+              <label class=" text-center" for="">Transfer to</label>
+              <label for="" style="opacity: 0.5;text-align: center;">Hint: as or ja</label>
+            </div>
+            <div class="d-flex flex-column gap-2 col">
+              <input class="transfer-amount" type="number">
+              <label class=" text-center" for="">Amount</label>
+            </div>
+            <input class="transfer-btn col" type="submit" value="➡">
+          </form>
+        </div>
+        <div class="loan-box mb-4 p-3">
+          <h3 class="mb-3">Request Loan</h3>
+          <form class="d-flex gap-2 flex-wrap" action="">
+            <div class="d-flex flex-column gap-2 col-md-6 col">
+              <input class="loan-amount" type="number">
+              <label class="text-center" for="">Amount</label>
+            </div>
+            <input class="loan-btn col-md-2 col" type="submit" value="➡">
+          </form>
+        </div>
+        <div class="close-box mb-4 p-3">
+          <h3 class="mb-3">Close Account</h3>
+          <form class="d-flex gap-2 flex-wrap" action="">
+            <div class="d-flex flex-column gap-2 col">
+              <input class="close-account-user" type="text">
+              <label class=" text-center" for="">confirm user</label>
+              <label for="" style="opacity: 0.5;text-align: center;">Hint: as or ja</label>
+            </div>
+            <div class="d-flex flex-column gap-2 col">
+              <input class="close-account-passoword" type="password">
+              <label class=" text-center" for="">confirm password</label>
+              <label for="" style="opacity: 0.5; text-align: center;">Hint: 1234 or 4321</label>
+
+            </div>
+            <input class="close-btn col" type="submit" value="➡">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/login.js"></script>
+
+</html>

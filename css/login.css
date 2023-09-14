@@ -1,0 +1,177 @@
+.login form input {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0px !important;
+  border-radius: 25px;
+  border: none;
+  color: rgb(179, 179, 179);
+}
+
+.login form input:focus-visible {
+  outline: none;
+}
+
+.login form input::placeholder {
+  color: rgb(179, 179, 179);
+}
+
+.login form input[type="submit"] {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 0px !important;
+  color: rgb(112, 112, 112);
+  transition: 0.5s;
+}
+
+.login form input[type="submit"]:hover {
+  translate: 20%;
+}
+
+.account {
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.account.show {
+  opacity: 1;
+}
+
+.transitions-box:nth-of-type(1) {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.transitions-box:last-of-type {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.transitions-box {
+  background-color: white;
+  margin-bottom: 2px !important;
+}
+
+.transitions-content .deposit {
+  font-size: 12px;
+  color: white;
+  background-color: #4cb571;
+  padding: 5px 10px !important;
+  border-radius: 15px;
+}
+.transitions-content .withdrawal {
+  font-size: 12px;
+  color: white;
+  background-color: #ef3a51;
+  padding: 5px 10px !important;
+  border-radius: 15px;
+}
+
+.transitions-content .trans-balance {
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.oper-content .transfer-box {
+  color: rgb(49, 49, 49);
+  background: linear-gradient(to right, #ffc830, #feab02);
+  border-radius: 15px;
+  padding: 40px !important;
+}
+
+.oper-content .transfer-box input {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px !important;
+  border-radius: 10px;
+  border: none;
+  background-color: #fed275;
+  color: rgb(46, 46, 46);
+}
+
+.oper-content .transfer-box input:focus-visible {
+  outline: none;
+}
+
+.oper-content label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.oper-content .transfer-box input[type="submit"] {
+  cursor: pointer;
+  font-size: 20px;
+  align-self: start;
+  padding: 7px 7px !important;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.oper-content .transfer-box input[type="submit"]:hover {
+  translate: 10%;
+}
+.oper-content .loan-box {
+  color: rgb(49, 49, 49);
+  background: linear-gradient(to right, #8acd7a, #38ba38);
+  border-radius: 15px;
+  padding: 40px !important;
+}
+
+.oper-content .loan-box input {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px !important;
+  border-radius: 10px;
+  border: none;
+  background-color: #a4dda6;
+  color: rgb(46, 46, 46);
+}
+
+.oper-content .loan-box input:focus-visible {
+  outline: none;
+}
+
+.oper-content .loan-box input[type="submit"] {
+  cursor: pointer;
+  font-size: 20px;
+  align-self: start;
+  padding: 7px 7px !important;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.oper-content .loan-box input[type="submit"]:hover {
+  translate: 10%;
+}
+.oper-content .close-box {
+  color: rgb(49, 49, 49);
+  background: linear-gradient(to right, #f26565, #dd0000);
+  border-radius: 15px;
+  padding: 40px !important;
+}
+
+.oper-content .close-box input {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px !important;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffacacc2;
+  color: rgb(46, 46, 46);
+}
+
+.oper-content .close-box input:focus-visible {
+  outline: none;
+}
+
+.oper-content .close-box input[type="submit"] {
+  cursor: pointer;
+  font-size: 20px;
+  align-self: start;
+  padding: 7px 7px !important;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.oper-content .close-box input[type="submit"]:hover {
+  translate: 10%;
+}
